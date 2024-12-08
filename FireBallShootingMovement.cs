@@ -53,26 +53,7 @@ public class FireBallShootingMovement : MonoBehaviour
        
     }
 
-    //public void SetDirection(float direction)
-    //{
-    //    _lifeTime = 0;
-    //    _direction = direction;
-    //    gameObject.SetActive(true);
-    //    hit = false;
-    //    _boxCollider.enabled = true;
 
-
-
-    //    float localScalex = transform.localScale.x;
-    //    if (Mathf.Sign(localScalex) != direction)
-    //    {
-    //        localScalex = -localScalex;
-    //    }
-    //    transform.localScale = new Vector3(localScalex, transform.localScale.y, transform.localScale.z);
-
-
-
-    //}
 
     public void SetDirection()
     {
