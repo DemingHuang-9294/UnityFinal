@@ -32,11 +32,11 @@ public class PlayerMovement : MonoBehaviour
         else if (_horizontalInput < -0.01f)
             transform.localScale = new Vector3(-0.7f,0.7f,0.7f);
 
-        //Set animator parameters
+    
         _anim.SetBool("run", _horizontalInput != 0);
         _anim.SetBool("grounded", IsGrounded());
 
-        //Wall jump logic
+     
         if (_wallJumpCooldown > 0.2f)
         {
             _body.velocity = new Vector2(_horizontalInput * _speed, _body.velocity.y);
